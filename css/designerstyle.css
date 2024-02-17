@@ -525,6 +525,19 @@ body.active{
 
 @media (max-width:768px){
 
+   .containerOfTopContainer {
+      margin-left: 100px;
+      margin-top: -100px;
+      padding-bottom: 50px;
+   }
+
+   .top-container {
+      padding-right: 500px;
+      position: relative;
+      z-index: -2;
+      text-align: center;
+   }
+
    #search-btn{
       display: inline-block;
    }
@@ -549,6 +562,19 @@ body.active{
 }
 
 @media (max-width:450px){
+
+   .containerOfTopContainer {
+      margin-left: 100px;
+      margin-top: -100px;
+      padding-bottom: 50px;
+   }
+
+   .top-container {
+      padding-right: 500px;
+      position: relative;
+      z-index: -2;
+      text-align: center;
+   }
 
    html{
       font-size: 50%;
